@@ -5,9 +5,7 @@
     margin-bottom: 5rem;
 }
 
-.receta__imagem {
-    height: 200px;
-}
+
 
 @media screen and (min-width: 0) {
     .receta {
