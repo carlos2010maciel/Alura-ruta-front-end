@@ -5,3 +5,7 @@
     • Manipula el Local Storage para guardar datos
     • Trabaja con fechas en JavaScript
     • Utiliza el sistema de módulos de JavaScript para proteger los archivos
+
+## MODIFICACIONES FUTURAS:
+    - Diseño Responsivo
+    - Registro de horario de las tareas cargadas
