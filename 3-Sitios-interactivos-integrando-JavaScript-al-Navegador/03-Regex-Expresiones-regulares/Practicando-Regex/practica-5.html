@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        /**La variable codigos guarda una string con varios códigos concatenados.La ley de formación es la siguiente: todo código empieza con una letra seguida de 1 o más dígitos.Necesitamos extraer esas strings en un arreglo, o sea, una lista de código para que el desarrollador pueda verificar si cada uno de esos códigos existe en el sistema.*/
+
+        var codigos = 'A121B12112C12212F12G01';
+
+        var exp = /[A-Za-z]\d+/g;
+
+        var codigosExtraidos = codigos.match(exp);
+
+        console.log(codigosExtraidos);
+    </script>
+</body>
+
+</html>
